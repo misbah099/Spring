@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns:jpa="http://www.springframework.org/schema/data/jpa"
+ xsi:schemaLocation="http://www.springframework.org/schema/beans
+ https://www.springframework.org/schema/beans/spring-beans.xsd
+ http://www.springframework.org/schema/data/jpa
+ https://www.springframework.org/schema/data/jpa/spring-jpa.xsd">
+ 
+ <bean id="X" class="com.Spring.entity.Student">
+ <constructor-arg name="id" value="101"/>
+ <constructor-arg name="sname" value="Niladri"/>
+ <constructor-arg name="email" value="niladri@gmail.com"/>
+ <constructor-arg name="phone" value="9874563210"/>
+ </bean>
+ <bean id="Y" class="com.Spring.entity.Person">
+ <property name="name" value="Misbah">
+ </property>
+ </bean>
+ </beans>
